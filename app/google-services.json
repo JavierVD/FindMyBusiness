@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743286781264",
+    "project_id": "find-my-business-d8baf",
+    "storage_bucket": "find-my-business-d8baf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743286781264:android:fcafb20be8bfa482782855",
+        "android_client_info": {
+          "package_name": "mx.ita.findmybusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743286781264-27thlko246hfgjprjt695p45eds133a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfnTZZ7UIkDGOeWg6hK68OLafB6ndbp58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743286781264-27thlko246hfgjprjt695p45eds133a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

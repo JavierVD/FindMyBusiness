@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E4157"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CalificarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/calificar_producto"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/picProductoCalif"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/activate_gps" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center_horizontal"
+        android:text="Prom"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/rbStars"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center|center_vertical"
+        android:backgroundTint="#9C27B0"
+        android:numStars="10"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressTint="#6D2C85" />
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtOpinion"
+        android:layout_width="331dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:autofillHints="Escribe una opinión"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+
+        android:hint="@string/escribe_una_opini_n"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btnSendOpinion"
+        android:layout_width="363dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#B8B8B8"
+        android:text="@string/enviar_calificaci_n"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+</LinearLayout>

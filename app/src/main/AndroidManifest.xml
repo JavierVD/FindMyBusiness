@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.ita.findmybusiness">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FindMyBusiness.NoActionBar">
+        <activity android:name=".editarPerfil"></activity>
+        <activity android:name=".idiomas" />
+        <activity android:name=".configuracion" />
+        <activity android:name=".createProduct" />
+        <activity android:name=".manageProducts" />
+        <activity android:name=".editProduct" />
+        <activity android:name=".bugsActivity" />
+        <activity android:name=".editNegocio" />
+        <activity android:name=".CalificarActivity" />
+        <activity
+            android:name=".adminSeller"
+            android:label="@string/title_activity_admin_seller"
+            android:theme="@style/Theme.FindMyBusiness.NoActionBar.NoActionBar" />
+        <activity android:name=".registrarNegocio" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".RegistrarUsuario" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC5UPhJfCwvd7YNkonAgiS4ujWJGheIb70" />
+
+        <activity
+            android:name=".InicioSesion"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FindMyBusiness.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mx.ita.findmybusiness.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="mx.ita.findmybusiness.ui.gallery.GalleryFragment"
+        android:label="Servicios"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="mx.ita.findmybusiness.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/registrarNegocio"
+        android:name="mx.ita.findmybusiness.registrarNegocio"
+        android:label="activity_registrar_negocio"
+        tools:layout="@layout/activity_registrar_negocio" />
+    <activity
+        android:id="@+id/abrirUsuario"
+        android:name="mx.ita.findmybusiness.adminSeller"
+        android:label="activity_registrar_negocio"
+        tools:layout="@layout/activity_admin_seller" />
+
+
+</navigation>

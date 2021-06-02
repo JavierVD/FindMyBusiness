@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_delete_product"
+        android:icon="@drawable/save_white_24dp"
+        android:title="Eliminar producto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_update_product"
+        android:icon="@drawable/delete_black_24dp"
+        android:title="Eliminar producto"
+        app:showAsAction="always" />
+</menu>
